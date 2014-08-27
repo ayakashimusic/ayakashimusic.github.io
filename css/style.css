@@ -7,7 +7,6 @@ body, html {
 
 body {
 	overflow: hidden;
-	/*background-color: rgb(82, 121, 163);*/
 	background: radial-gradient(circle, #4DF1FF, #65A0E0, #81BAF7, #DBEEFF);
 	font-family: arial;
 	text-align: center;
@@ -66,8 +65,8 @@ a {
 }
 
 .social-icon {
-	width: 80px; /* Declare your value. Can be in relative units. */
-	height: 80px; /* Declare your value. Can be in relative units. */
+	width: 80px;
+	height: 80px;
 	display: inline-block;
 	vertical-align: top;
 }
