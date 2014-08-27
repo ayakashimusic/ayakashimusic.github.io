@@ -3,16 +3,32 @@
 <body>
   <head>
     <title>Ayakashi</title>
+    <link href='http://fonts.googleapis.com/css?family=Russo+One|Black+Ops+One|Aldrich&effect=stonewash|anaglyph' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" title="style" href="css/style.css" />
   </head>
 
-    <div id="Ayakashi">Ayakashi</div>
-    <div id="JRock">Japanese Rock</div>
-    <a href="https://www.facebook.com/ayakashi.sf"><canvas id="CubeCanvas"></canvas></a>
+    <div id="Ayakashi" class="font-effect-anaglyph">Ayakashi</div>
+    <div id="JRock" class="font-effect-stonewash">Japanese Rock</div>
+    
+    <div id="CanvasHolder">
+      <canvas id="CubeCanvas"></canvas>
+      <canvas id="MenuCanvas"></canvas>
+    </div>
+
+    <div id="socialMedias">
+      <a class="social-icon facebook" href="http://www.facebook.com/ayakashi.sf"></a>
+      <a class="social-icon soundcloud" href="http://www.soundcloud.com/ayakashi-sf"></a>
+      <a class="social-icon youtube" href="http://www.youtube.com/ayakashisf"></a>
+      <a class="social-icon reverbnation" href="http://www.reverbnation.com/ayakashisf"></a>
+      <a class="social-icon bandsintown" href="http://www.bandsintown.com/ayakashi"></a>
+    </div>
 
   <footer>
-    <script src="js/three.min.js"></script>
-    <script src="js/ayakashi_cube.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/paper-full.min.js"></script>
+    <script type="text/javascript" src="scripts/ayakashi_cube.js"></script>
+    <script type="text/paperscript" src="scripts/menu.js" canvas="MenuCanvas"></script>
   </footer>
 </body>
 </html>
