@@ -91,7 +91,7 @@ function drawText(justifiedPoints, menuItems, spacing, color){
         }
         
         text.onMouseEnter = function(event) {
-            this.fillColor = 'white';
+            this.fillColor = 'blue';
         }
 
         text.onMouseLeave = function(event) {
@@ -122,7 +122,7 @@ function start(){
     //drawPoints(circlePoints);
     drawCircle(center, radius, color, lineWidth);
     var justifiedPoints = drawLines(center, circlePoints, length, color, lineWidth);
-    drawText(justifiedPoints, menuItems, textSpacing, "blue");
+    drawText(justifiedPoints, menuItems, textSpacing, "white");
 }
 
 
