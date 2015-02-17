@@ -1,103 +1,54 @@
-body, html {
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-}
-
 body {
-	overflow: hidden;
-	background: radial-gradient(circle, #4DF1FF, #65A0E0, #81BAF7, #DBEEFF);
-	font-family: arial;
-	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
-a {
-	color: #000;
-	text-decoration: none;
+p, li {
+	color: #616161;
+	line-height: 1.5em;
 }
 
-#Ayakashi{
-	font-size: 600%;
-	font-family: 'Russo One', sans-serif;
-	font-family: 'Black Ops One', cursive;
-}
-
-#JRock{
-	font-size: 300%;
-	font-family: 'Russo One', sans-serif;
-	font-family: 'Black Ops One', cursive;
-}
-
-#CanvasHolder{
-	/*border: 1px solid red;*/
-	position: relative;
-  width: 100%;
-  height: 70%;
-  margin: 0 auto;
-}
-
-#CubeCanvas{
-	/*border: 1px solid blue;*/
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 1;
-	width: 100%;
-	height: 100%;
-	pointer-events: none;
-}
-
-#MenuCanvas{
-	/*border: 1px solid yellow;*/
-	position: absolute;
-	left: 0;
-	top: 0;
-	z-index: 0;
-	width: 100%;
-	height: 100%;
-}
-
-#socialMedias {
-	width: 26%;
+.container {
+	font-family: 'Open Sans', helvetica, arial, san-serif;
 	margin: 0 auto;
-	text-align: justify;
+	width: 950px;
 }
 
-.social-icon {
-	width: 80px;
-	height: 80px;
-	display: inline-block;
-	vertical-align: top;
+.section-heading {
+	color: #616161;
+	font-weight: bold;
+	margin-top: 35px;
 }
 
-#socialMedias:after {
-	content: "";
+.header {
+	background-color: rgb(92,92,126);
+	text-align: center;
 	width: 100%;
-	display: inline-block;
 }
 
-.facebook{
-	background-image: url('../images/icons/facebook_b.png');
-	background-size: 100%;
+.header .business-card {
+	width: 50%;
 }
 
-.soundcloud {
-	background-image: url('../images/icons/soundcloud_b.png');
-	background-size: 100%;
+.feature-video {
+	text-align: center;
+	width: 100%;
 }
 
-.youtube {
-	background-image: url('../images/icons/youtube_b.png');
-	background-size: 100%;
+.bio .list-member {
+	list-style: none;
+	list-style-position: inside;
+	padding: 0;
 }
 
-.reverbnation {
-	background-image: url('../images/icons/reverbnation_b.png');
-	background-size: 100%;
+.bio .bio-banner {
+	width: 100%;
 }
 
-.bandsintown {
-	background-image: url('../images/icons/bandsintown_b.png');
-	background-size: 100%;
+.photo-gallery .photo {
+	width: 100%;
+}
+
+.footer {
+	text-align: center;
 }
