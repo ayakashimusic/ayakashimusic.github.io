@@ -1,4 +1,1 @@
-DNS ENTRY   TYPE        TARGET/DESTINATION
-@           A           204.232.175.78        
-www         CNAME       ayakashi.band.
-www         A           204.232.175.78
+www.ayakashi.band
