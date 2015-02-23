@@ -18,7 +18,7 @@ function init() {
 
     loader = new THREE.JSONLoader();
 
-    loader.load( "3D/Aya_01.js", function( geometry, materials ) {
+    loader.load( "js/3dcube_model.js", function( geometry, materials ) {
         //mesh = new THREE.Mesh( geometry , new THREE.MeshFaceMaterial( materials ) );
 
         var newMat = new THREE.MeshFaceMaterial( materials );

@@ -17,8 +17,8 @@
 {
 "DbgIndex" : 0,
 "DbgName"  : "Blue",
-"colorDiffuse"  : [0.0314, 0.1490, 0.5961],
-"colorAmbient"  : [0.0314, 0.1490, 0.5961],
+"colorDiffuse"  : [45.073, 50.224, 82.178],
+"colorAmbient"  : [45.073, 50.224, 82.178],
 "colorSpecular"  : [0.9000, 0.9000, 0.9000],
 "transparency"  : 1.0,
 "specularCoef"  : 10.0,
@@ -28,8 +28,8 @@
 {
 "DbgIndex" : 1,
 "DbgName"  : "White",
-"colorDiffuse"  : [1.0000, 1.0000, 1.0000],
-"colorAmbient"  : [1.0000, 1.0000, 1.0000],
+"colorDiffuse"  : [0.949, 0.949, 0.949],
+"colorAmbient"  : [0.949, 0.949, 0.949],
 "colorSpecular"  : [0.9000, 0.9000, 0.9000],
 "transparency"  : 1.0,
 "specularCoef"  : 10.0,
