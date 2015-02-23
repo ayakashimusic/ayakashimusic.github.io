@@ -1,7 +1,7 @@
 var camera, scene, renderer, canvas;
 var loader, mesh, light;
 
-var canvasHolder = $("#CanvasHolder");
+var canvasHolder = $("#aya-cube-holder");
 var isAyaCubeLoaded = false;
 
 window.addEventListener( 'resize', onWindowResize, false );
@@ -40,8 +40,8 @@ function init() {
     light.position.set(0,-0.2,1);
     scene.add(light);
 
-    canvas = document.getElementById("CubeCanvas") ;
-    renderer = new THREE.WebGLRenderer( {canvas: canvas, alpha: true} );
+    canvas = document.getElementById("aya-cube-canvas") ;
+    renderer = new THREE.WebGLRenderer( {canvas: canvas, alpha: true, antialias: true} );
     renderer.setSize( canvasHolder.width(), canvasHolder.height() );
 }
 

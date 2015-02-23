@@ -127,7 +127,7 @@ function start(){
 
 
 // START //
-var canvas = $("#CanvasHolder");
+var canvas = $("#aya-cube-holder");
 var center, radius;
 setSize();
 start();

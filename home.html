@@ -1,88 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Ayakashi SF | Japanese Rock Band</title>
-	<meta name="description" content="Ayakashi Japanese rock band from San Francisco."/>
-	<meta property="og:title" content="Ayakashi SF | Japanese Rock Band"/>
-	<meta property="og:description" content="Ayakashi Japanese rock band from San Francisco."/>
-	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="https://ayakashimusic.github.io/"/>
-	<meta property="og:image" content=""/>
-	<meta property="og:locale" content="en_us"/>
+  <title>Ayakashi SF | Japanese Rock Band</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="/css/style.css"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayakashi Japanese rock band from San Francisco."/>
+  <meta property="og:title" content="Ayakashi SF | Japanese Rock Band"/>
+  <meta property="og:description" content="Ayakashi Japanese rock band from San Francisco."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://ayakashimusic.github.io/"/>
+  <meta property="og:image" content=""/>
+  <meta property="og:locale" content="en_us"/>
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/main-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+  <!--<![endif]-->
 </head>
 <body>
-	<div class="container">
-		<section class="header">
-			<a href="https://www.facebook.com/ayakashi.sf"><img class="business-card" src="/images/ayakashi_bizcard.jpg"></a>
-		</section>
 
-		<section class="feature-video">
-			<h1 class="section-heading">Comme ca - Ayakashi (original - live)</h1>
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/BLeptfXsCnc?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="950" height="480"></iframe>
-		</section>
+  <div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+      <div class="header">
+        <div id="aya-cube-holder">
+          <canvas id="aya-cube-canvas"></canvas>
+        </div>
+        <h1 class="brand-title">Ayakashi</h1>
+        <h2 class="brand-tagline">Japanese Rock Band</h2>
 
-		<section class="bio">
-			<h2 class="section-heading">Find us on Facebook</h2>
-			<a href="https://www.facebook.com/ayakashi.sf"><p>facebook.com/ayakashi-sf</p></a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="pure-button" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="pure-button" href="#news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="pure-button" href="#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="pure-button" href="#music">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="pure-button" href="#videos">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="pure-button" href="#shows">Shows</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
-			<h2 class="section-heading">Biography</h2>
-			<p>Ayakashi was formed in 2013 in San Francisco by Chelsea from Japan and Stephane from France. Later, Alonso joined the duo as a drummer, followed by Rei on the bass and Yuin on the keyboard. The band started by playing covers to get the project rolling but is today exclusively working on new original songs all written in Japanese. Ayakashi has also decided to complete one new song for each show and it has been a ton of fun so far! We cannot wait to play our latest one live!</p>
+    <div class="content pure-u-1 pure-u-md-3-4">
+      <!-- Home -->
+      <a name="home"></a>
+      <img class="" alt="Ayakashi Battle of the Bands banner" height="auto" width="100%" src="http://www.ayakashi.band/images/ayakashi_battleofthebands.jpg">
 
-			<h2 class="section-heading">Members</h2>
-			<ol class="list-member">
-				<li class="member"><strong>Stephane</strong> (guitar) - France</li>
-				<li class="member"><strong>Chelsea</strong> (vocal) - Japan</li>
-				<li class="member"><strong>Alonso</strong> (drums) - USA</li>
-				<li class="member"><strong>Rei</strong> (bass) - Japan</li>
-				<li class="member"><strong>Yuin</strong> (keyboard) - Australia</li>
-			</ol>
+      <div class="posts">
+        <!-- News -->
+        <section class="post">
+          <a name="news"></a>
+          <header class="post-header">
+            <h2 class="post-title">News</h2>
+          </header>
 
-			<img class="bio-banner" src="/images/ayakashi_battleofthebands.jpg"/>
-		</section>
+          <div class="post-description">
+            <p>
+              We are currently working on our first original EP. More news coming up!
+            </p>
+          </div>
+        </section>
 
-		<section class="demo">
-			<h2 class="section-heading">Demo</h2>
-			<p>This is the first demo that we recorded in early 2014. The 3 songs below are covers and we are currently working on our new demo composed of 4 original songs.</p>
+        <!-- Bio -->
+        <section class="post">
+          <a name="bio"></a>
+          <header class="post-header">
+            <h2 class="post-title">Bio</h2>
+          </header>
 
-			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/152336608&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+          <div class="post-description">
+            <p>
+              Ayakashi was formed in 2013 in San Francisco by Chelsea from Japan and Stephane from France. Later, Alonso joined the duo as a drummer, followed by Rei on the bass and Yuin on the keyboard. The band started by playing covers to get the project rolling but is today exclusively working on new original songs all written in Japanese. Ayakashi has also decided to complete one new song for each show and it has been a ton of fun so far! We cannot wait to play our latest one live!
+            </p>
 
-			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149393027&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <h3 class="post-sub-title">Members</h3>
+            <ul class="list-member">
+              <li class="member"><strong>Stephane</strong> (guitar) - France</li>
+              <li class="member"><strong>Chelsea</strong> (vocal) - Japan</li>
+              <li class="member"><strong>Alonso</strong> (drums) - USA</li>
+              <li class="member"><strong>Rei</strong> (bass) - Japan</li>
+              <li class="member"><strong>Yuin</strong> (keyboard) - Australia</li>
+            </ul>
+          </div>
+        </section>
 
-			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/152340882&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-		</section>
+        <!-- Music -->
+        <section class="post">
+          <a name="music"></a>
+          <header class="post-header">
+            <h2 class="post-title">Music</h2>
+          </header>
 
-		<section class="video">
-			<h2 class="section-heading">Video</h2>
-			<p>Live extracts</p>
+          <div class="post-description">
+            <p>
+              This is the first demo that we recorded in early 2014. The 3 songs below are covers and we are currently working on our new demo composed of 4 original songs.
+            </p>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/vXHHn25BRhE?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="100%" height="480"></iframe>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/152336608&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/WlAm-Hc9HG4?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/149393027&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/-BVT6yR0StI?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/152340882&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+          </div>
+        </section>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/pk120rj6rkM?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
+        <!-- Videos -->
+        <section class="post">
+          <a name="videos"></a>
+          <header class="post-header">
+            <h2 class="post-title">Videos</h2>
+          </header>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/18ZSGyzt6GQ?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
+          <div class="post-description">
+            <p>
+              Here are some video clips on our live shows.
+            </p>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/opGW_wRV-aE?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
+            <iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/vXHHn25BRhE?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="100%" height="480"></iframe>
+          </div>
+        </section>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/421q5ykUVq0?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
+        <!-- Shows -->
+        <section class="post">
+          <a name="shows"></a>
+          <header class="post-header">
+            <h2 class="post-title">Shows</h2>
+          </header>
 
-			<iframe title="YouTube video player" class="youtube-player" type="text/html" src="//www.youtube.com/embed/Ldpq9gtXQUs?rel=0&amp;wmode=opaque" frameborder="0" allowfullscreen="true" width="49%" height="270"></iframe>
-		</section>
+          <div class="post-description">
+            <p>
+              More information on shows coming up!
+            </p>
 
-		<section class="photo-gallery">
-			<img class="photo tile" src="/images/ayakashi_tiles.png"/>
-			<img class="photo sensu" src="/images/ayakashi_sensu.jpg"/>
-		</section>
+          </div>
+        </section>
+      </div>
 
-		<footer class="footer">
-			<p>Ayakashi &copy; 2015</p>
-		</footer>
-	</div>
+      <div class="footer">
+        <div class="pure-menu pure-menu-horizontal pure-menu-open">
+          <p>ayakashi &copy; 2015</p>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <footer>
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/three.min.js"></script>
+    <script type="text/javascript" src="js/3dcube_three.js"></script>
+  </footer>
+
 </body>
 </html>
