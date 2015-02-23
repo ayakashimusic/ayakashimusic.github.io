@@ -1,0 +1,103 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	overflow: hidden;
+	background: radial-gradient(circle, #4DF1FF, #65A0E0, #81BAF7, #DBEEFF);
+	font-family: arial;
+	text-align: center;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#Ayakashi{
+	font-size: 600%;
+	font-family: 'Russo One', sans-serif;
+	font-family: 'Black Ops One', cursive;
+}
+
+#JRock{
+	font-size: 300%;
+	font-family: 'Russo One', sans-serif;
+	font-family: 'Black Ops One', cursive;
+}
+
+#CanvasHolder{
+	/*border: 1px solid red;*/
+	position: relative;
+  width: 100%;
+  height: 70%;
+  margin: 0 auto;
+}
+
+#CubeCanvas{
+	/*border: 1px solid blue;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+}
+
+#MenuCanvas{
+	/*border: 1px solid yellow;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#socialMedias {
+	width: 26%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.social-icon {
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#socialMedias:after {
+	content: "";
+	width: 100%;
+	display: inline-block;
+}
+
+.facebook{
+	background-image: url('../images/icons/facebook_b.png');
+	background-size: 100%;
+}
+
+.soundcloud {
+	background-image: url('../images/icons/soundcloud_b.png');
+	background-size: 100%;
+}
+
+.youtube {
+	background-image: url('../images/icons/youtube_b.png');
+	background-size: 100%;
+}
+
+.reverbnation {
+	background-image: url('../images/icons/reverbnation_b.png');
+	background-size: 100%;
+}
+
+.bandsintown {
+	background-image: url('../images/icons/bandsintown_b.png');
+	background-size: 100%;
+}
